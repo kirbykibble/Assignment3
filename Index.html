@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<script src="jscript.js"></script>
+	<head>
+	<body>
+		<div ID="display">
+			<div ID="topInput">
+				<input ID="TopInp" placeholder="Username" onkeyup="up(this)">
+				<div ID="MidInp">
+					<input ID="imgInp" placeholder="Image Link" onkeyup="up(this)">
+					<input ID="movieInp" placeholder="Movie Name" onkeyup="up(this)">
+				</div>
+				<input ID="BottomInp" placeholder="Comment" onkeyup="up(this)">
+				<button ID="submit" onclick="submit()">Submit</button>
+			</div>
+			<div ID="newItem">
+			</div>	
+		</div>
+	</body>
+</html>

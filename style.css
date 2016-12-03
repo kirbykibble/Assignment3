@@ -1,0 +1,103 @@
+#topInput {
+/*	border: solid black 2px;*/
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+}
+#TopInp {
+	width: 45vw;
+	height: 30px;
+	margin: 10px;
+}
+#MidInp {
+	margin: 10px;
+	display: flex;
+	flex-flow: row;
+}
+#imgInp {
+	width: 45vw;
+	height: 30px;
+}
+#movieInp {
+	width: 45vw;
+	height: 30px;
+	margin-left: 1vw;
+}
+#BottomInp {
+	width: 91.2vw;
+	height: 30px;
+	margin: 10px;
+}
+#submit {
+	width: 25vw;
+	height: 50px;
+	margin: 10px;
+	font-family: Impact;
+	font-size: 2vw;
+	color: white;
+	background-color: darkred;
+	border: none;
+	transition: all ease 0.2s;
+}
+#submit:hover {
+	width: 25vw;
+	height: 50px;
+	margin: 10px;
+	font-family: Impact;
+	font-size: 2vw;
+	color: white;
+	background-color: orangered;
+	border: none;
+	transition: all ease 0.2s;
+}
+input {
+/*	border: solid grey 1px;*/
+	padding: 2px;
+}
+#outer {
+	padding: 10px;
+/*	border: solid red 1px;*/
+}
+#comment {
+	width: 90%;
+	height: 10vh;
+/*	border: solid blue 1px;*/
+	padding: 30px;
+	margin: 40px;
+}
+#image {
+	position: relative;
+	top: -28vh;
+	left: 0;
+	width: 10vh;
+	height: 10vh;
+	margin-bottom: -10vh;
+/*	border: solid red 1px;*/
+	background-image: None;
+	background-position: center;
+	background-size: cover;
+}
+#movie {
+	position: relative;
+	right: -90vw;
+	top: -28vh;
+	margin-bottom: -10vh;
+	width: 10vh;
+	height: 10vh;
+/*	border:solid green 1px;*/
+	background-image: None;
+	background-position: center;
+	background-size: cover;
+}
+#username {
+	position: relative;
+	right: -79vw;
+	top: -10vh;
+	margin-bottom: -10vh;
+	width: 30vh;
+	height: 10vh;
+	text-align: center;
+	font-size: 36pt;
+/*	border: solid black 1px;*/
+/*	background-color: yellow;*/
+}
