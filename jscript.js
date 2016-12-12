@@ -88,7 +88,7 @@ function createNew() {
 	userInp = document.getElementById("TopInp");
 	imgInp = document.getElementById("imgInp");
 	movieInp = document.getElementById("movieInp");
-	bottomInp = document.getElementById("movieInp");
+	bottomInp = document.getElementById("BottomInp");
 	newArea = document.getElementById("newItem");	
 	
 	outer = document.createElement("div");
